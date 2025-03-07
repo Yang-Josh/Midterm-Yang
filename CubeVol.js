@@ -1,7 +1,8 @@
 function CubeVol(height){
 
-     return height **3;
+height = 1;
+let volume = height **3;
+     return volume;
 }
-
 
 export {CubeVol}

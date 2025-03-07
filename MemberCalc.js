@@ -1,11 +1,15 @@
 function MemberCalc(cost,friends){
 
+var discount = 0;
+var total =0;
+
     if (friends >= 0){
+       discount = 0;
         total = cost;
 
     }
     else if (friends =1){
-        discount = cost*.05;
+       discount = cost*.05;
         total = cost - discount;
 
     }

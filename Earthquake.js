@@ -1,4 +1,6 @@
 function Earthquake(richter){
+    var result = 0;
+
     if (richter < 5){
         result = "Little to no damage";
     }
